@@ -26,6 +26,8 @@ let link1= (rand < 0.5)? "<a href='http://www.javascriptkit.com'>JavaScript Kit<
 let rand2 = Math.random();
 let link2= (rand < 0.5)? "<a href='http://www.codingforums.com/'>Coding Forums</a>" : "<a href='http://www.cssdrive.com'>Css Drive</a>"
 
+
+
 document.getElementById('suboperator').innerHTML="Grade A";
 document.getElementById('ans').innerHTML="<code>let Score = 80</code> <br/> <code> let result = (score >= 80) ? \"A\": \"Below A\"</code><br/> Result:" +  result;
 
