@@ -1,7 +1,7 @@
 
-let sum = "OIC ";
-sum += "Hub ";
-sum += "Nigeria";
+let sum = "Sarah ";
+sum += "Oluwasami ";
+sum += "Jesutobiloba";
 
 let substr = 20;
 substr -= 4;
@@ -26,7 +26,7 @@ expo **= 3;
 
 
 document.getElementById('suboperator').innerHTML="Assignment concatenation Operator";
-document.getElementById('ans').innerHTML="<code>let Sum=\"OIC\"</code> <br/> <code> Sum +=\"Hub\"</code><br/> <code> Sum +=\"Nigeria\"</code><br/>" +  sum;
+document.getElementById('ans').innerHTML="<code>let Sum=\"Sarah\"</code> <br/> <code> Sum +=\"Oluwasami\"</code><br/> <code> Sum +=\"Jesutobiloba\"</code><br/>" +  sum;
 
 document.getElementById('suboperator1').innerHTML="Assignment substraction Operator";
 document.getElementById('ans1').innerHTML="<code>let Substr= 20</code> <br/> <code> Substr -= 4</code><br/> <code> Substr -= 5</code><br/> Answer:"  +  substr;
@@ -51,7 +51,7 @@ document.getElementById('heading2').innerHTML="Assignment Operator"
 document.getElementById('content').innerHTML="Assignment operators assign values to JavaScript variables."
 document.getElementById('heading3').innerHTML="Types of Assignment Operator"
 
-
+document.getElementById('link').innerHTML="My fourth experience"
 
 document.getElementById('heading').innerHTML="My First Experience with Javascript "
 document.getElementById('experience').innerHTML="I'm learning javascript out of neccessity to add dynamic behavior to websites and because it is the next on my front-web class outline. The first class seemed simple since it was just introduction to javascript. I've heard that javascript is hard, but I'm hoping I will understand it with practice.  From the first class, I realized that javascript is hard and also not hard, and as my teacher said 'You just need to make more effort to practice.'"
