@@ -44,6 +44,16 @@ button:hover {
 #no-16 {
     background-color: black;
     color: whitesmoke;
+    font-size: 20px;
+}
+
+#ninne{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#ninn{
+    font-size: 20px;
 }
 
 input{
