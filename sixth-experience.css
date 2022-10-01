@@ -1,0 +1,56 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.calc{
+    text-align: center;
+}
+
+#nine{
+    width: 290px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+#nine:hover{
+    background-color: rgb(233, 219, 219);
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: pink;
+    color: black;
+}
+
+#no-16 {
+    background-color: rgb(231, 114, 134);
+}
+
+input{
+    border: 2px solid rgb(231, 114, 134);;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+
+
