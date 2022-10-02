@@ -11,6 +11,12 @@
 <body>
     <h1 id="heading" style=" font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"></h1>
     <h2 id="heading1" style="font-size: 30px; "></h2>
+    <h2> Examination Grading System</h2>
+    <form action="" class="score">
+        <input onclick="getScore()" type="text" id="score">
+    </form>
+             <p> Result: <b id="result"></b></p>
+    
     <h2 id="heading2"></h2>
 
     <div class="calc" >
@@ -19,37 +25,77 @@
         
     </form>
     <br>
-        <div class="flex-1">
+    <div class="flex-container">
+
+        <div class="flex">
+            <button onclick = "clear()" id="ninne">C</button>
+            <button onclick = "expo()" id="ninne">e</button>
+            <button onclick = "divide()" id="ninn">/</button>
+            <button onclick = "del()" id="ninne">del</button>
+        </div>
+
+        <div class="flex">
             <button onclick = "seven()" id="ninne">7</button>
             <button onclick = "eight()" id="ninne">8</button>
             <button onclick = "nine()" id="ninne">9</button>
             <button onclick = "times()" id="ninn">x</button>
         </div>
-        <br>
-        <div class="flex-2">
+        
+        <div class="flex">
             <button onclick = "four()" id="ninne">4</button>
             <button onclick = "five()" id="ninne">5</button>
             <button onclick = "six()" id="ninne">6</button>
             <button onclick = "minus()" id="ninn">-</button>
         </div>
-        <br>
-        <div class="flex-3">
+        
+        <div class="flex">
                 <button onclick = "one()" id="ninne">1</button>
                 <button onclick = "two()" id="ninne">2</button>
                 <button onclick = "three()" id="ninne">3</button>
                 <button onclick = "plus()" id="ninn">+</button>
         </div>
-        <br>
-        <div class="flex-4">
+        
+        <div class="flex">
                 <button onclick = "modulus()" id="ninn">%</button>
                 <button onclick = "zero()" id="ninne">0</button>
-                <button onclick = "divide()" id="ninn">/</button>
+                <button onclick = "decimal()" id="ninn">.</button>
                 <button onclick = "equals()" id="no-16">=</button>
         </div>
         <br>
-        <input type="submit">
+    </div>
     </div>
 
+
+
+    <script>
+    function getScore(){
+        let result;
+     let score = document.getElementById('score').value;
+    if(score >= 70 && score <= 100){
+        result="A";
+    }
+   else if(score >= 60 && score <= 69){
+        result="B";
+    }
+    else if(score >= 50 && score <= 59){
+        result="C";
+    }
+    else if(score >= 45 && score <= 49){
+        result="D";
+    }
+    else if(score >= 40 && score <= 44){
+        result="E";
+    }
+    else if(score == ""){
+        result="Not available";
+    }
+    else if(score > "In"){
+        result="Not available";
+    }
+    document.getElementById('result').innerHTML=result;
+
+    }
+   </script>
     
 
     <script src="sixth-experience.js"></script>

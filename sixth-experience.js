@@ -1,4 +1,14 @@
 
+function expo() {
+    let output = document.getElementById('nine');
+        output.innerHTML += "**"
+} 
+
+function decimal() {
+    let output = document.getElementById('nine');
+        output.innerHTML += "."
+} 
+
 function seven() {
     let output = document.getElementById('nine');
         output.innerHTML += 7
@@ -84,4 +94,4 @@ function equals() {
 
 document.getElementById('heading').innerHTML="My Sixth Experience with Javascript"
 document.getElementById('heading1').innerHTML="<i>Assignment</i>"
-document.getElementById('heading2').innerHTML="JavaScript Form"
+document.getElementById('heading2').innerHTML="JavaScript Calculator"
