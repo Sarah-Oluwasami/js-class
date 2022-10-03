@@ -1,72 +1,72 @@
 
 function expo() {
     let output = document.getElementById('nine');
-        output.innerHTML += "**"
+        output.value += "**"
 } 
 
 function decimal() {
     let output = document.getElementById('nine');
-        output.innerHTML += "."
+        output.value += "."
 } 
 
 function seven() {
     let output = document.getElementById('nine');
-        output.innerHTML += 7
+        output.value += 7
 } 
 
 function eight() {
     let output = document.getElementById('nine');
-        output.innerHTML += 8
+        output.value += 8
 } 
 
 function nine() {
     let output = document.getElementById('nine');
-        output.innerHTML += 9
+        output.value += 9
 } 
 
 function times() {
     let output = document.getElementById('nine');
-        output.innerHTML += "*"
+        output.value += "*"
 } 
 
 function four() {
     let output = document.getElementById('nine');
-        output.innerHTML += 4
+        output.value += 4
 } 
 
 function five() {
     let output = document.getElementById('nine');
-        output.innerHTML += 5
+        output.value += 5
 } 
 
 function six() {
     let output = document.getElementById('nine');
-        output.innerHTML += 6
+        output.value += 6
 } 
 
 function minus() {
     let output = document.getElementById('nine');
-        output.innerHTML += "-"
+        output.value += "-"
 } 
 
 function one() {
     let output = document.getElementById('nine');
-        output.innerHTML += 1
+        output.value += 1
 } 
 
 function two() {
     let output = document.getElementById('nine');
-        output.innerHTML += 2
+        output.value += 2
 } 
 
 function three() {
     let output = document.getElementById('nine');
-        output.innerHTML += 3
+        output.value += 3
 } 
 
 function plus() {
     let output = document.getElementById('nine');
-        output.innerHTML += "+"
+        output.value += "+"
 } 
 
 function modulus() {
@@ -76,20 +76,29 @@ function modulus() {
 
 function zero() {
     let output = document.getElementById('nine');
-        output.innerHTML += 0
+        output.value += 0
 } 
 
 function divide() {
     let output = document.getElementById('nine');
-        output.innerHTML += "/"
+        output.value += "/"
 } 
 
 function equals() {
     let output = document.getElementById('nine');
-    let result = eval(output.innerHTML);
-        output.innerHTML=result
+    let result = eval(output.value);
+        output.value=result
 } 
  
+document.querySelector("#clear").addEventListener("click", ()=>{
+    document.querySelector("#nine").value = " "
+})
+
+const del = () =>{
+    const num = document.querySelector("#nine").value.slice(0, -1)
+    document.querySelector("#nine").value = num
+}
+
 
 
 document.getElementById('heading').innerHTML="My Sixth Experience with Javascript"
