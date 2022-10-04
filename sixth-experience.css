@@ -16,17 +16,20 @@ h3{
     text-align: center;
 }
 
+.calc {
+    margin: auto;
+    background-color: aliceblue;
+    width: 300px;
+}
+
 p {
     text-align: center;
 }
 
-form{
-    text-align: center;
-}
 
 #nine{
     width: 290px;
-    height: 120px;
+    height: 100px;
     border-right: 2px solid rgb(250, 237, 237);
     border-bottom: 2px solid rgb(250, 237, 237);
     border-radius: 10px;
@@ -34,9 +37,6 @@ form{
     color: aliceblue;
 }
 
-.flex-container {
-    text-align: center;
-}
 
 .flex {
     padding-top: 10px;

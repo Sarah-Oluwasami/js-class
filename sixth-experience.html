@@ -14,19 +14,13 @@
     <h2 id="heading2"></h2>
 
     <div class="calc" >
-    <form action="">
-        
-        <input type="text" id="nine">
-        
-    </form>
+        <input type="text" id="nine" value="Off">
     <br>
-    <div class="flex-container">
-
         <div class="flex">
-            <button onclick = "clear()" id="clear">C</button>
-            <button onclick = "expo()" id="ninne">e</button>
+            <button onclick = "clea()" id="clear">C</button>
             <button onclick = "divide()" id="ninn">/</button>
             <button onclick = "del()" id="ninne">del</button>
+            <button id="nin" onclick="onandoff()">ON/OFF</button>
         </div>
 
         <div class="flex">
@@ -53,7 +47,7 @@
         <div class="flex">
                 <button onclick = "modulus()" id="ninn">%</button>
                 <button onclick = "zero()" id="ninne">0</button>
-                <button onclick = "decimal()" id="ninn">.</button>
+                <button onclick = "expo()" id="ninne"> e</button>
                 <button onclick = "equals()" id="no-16">=</button>
         </div>
         <br>
