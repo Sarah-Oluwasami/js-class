@@ -1,0 +1,55 @@
+
+
+.passport {
+    background-image: url('images/bgsexy4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hue;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 4px rgb(175, 133, 133);
+    background-color: rgba(243, 243, 243, 0.856);
+}
+
+.input {
+    width: 200px;
+    padding: 20px;
+}
+
+#name {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px inset rgb(207, 158, 207);
+}
+
+#e-mail {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px inset rgb(207, 158, 207);
+}
+
+#number {
+    width: 250px;
+    height: 40px;
+    box-shadow: 1px 1px inset rgb(207, 158, 207);
+}
+
+.display {
+    padding: 20px 0px 20px 100px;
+}
+
+.display img{
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.display p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

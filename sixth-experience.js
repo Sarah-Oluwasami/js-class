@@ -17,6 +17,7 @@ function expo() {
     }
     } 
 
+
 function onandoff(){
     let output = document.getElementById('nine');
    var outputValue = output.value;
@@ -342,6 +343,7 @@ else{
     output.value ="Turn On the calculator";
 }        
 }
+
 
 
 
