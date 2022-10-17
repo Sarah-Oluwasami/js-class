@@ -19,17 +19,17 @@ function numbe() {
     let output = document.getElementById('mynumber')
         output.innerHTML = input.value   
     let phone = document.getElementById('number').value;
-    if(phone.startsWith('070') || phone.startsWith('080') || phone.startsWith('090') || phone.startsWith('081')){
-       if(phone.length == 11){
-       valid = "Valid"
+    if(phone.startsWith('070') || phone.startsWith('080') || phone.startsWith('090') || phone.startsWith('081')){  
+        if(phone.length == 11){
+       valid = input.value 
    }else{
-    valid = "Number not valid"
+    valid = "Invalid"
    }
       }else {
-        valid = "Number not valid"
+        valid = "Invalid"
       }
 
-document.getElementById('result').innerHTML= valid;   
+document.getElementById('mynumber').innerHTML= valid;   
 }
 
 

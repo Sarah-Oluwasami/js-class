@@ -5,14 +5,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: hue;
-    width: 600px;
-    height: 350px;
+    background-blend-mode: soft-light;
+    width: 550px;
+    height: 330px;
     display: flex;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 4px rgb(175, 133, 133);
-    background-color: rgba(243, 243, 243, 0.856);
+    box-shadow: 1px 1px 4px 4px rgb(175, 133, 133); 
+    background-color: rgba(255, 248, 248, 0.856);
 }
 
 @media only screen and (max-width: 600px) {
@@ -25,32 +25,32 @@
   }
 
 .input {
-    width: 200px;
+    width: 250px;
     padding: 20px;
 }
 
 #name {
-    width: 250px;
-    height: 40px;
+    width: 230px;
+    height: 35px;
     margin-bottom: 10px;
     box-shadow: 1px 1px inset rgb(207, 158, 207);
 }
 
 #e-mail {
-    width: 250px;
-    height: 40px;
+    width: 230px;
+    height: 35px;
     margin-bottom: 10px;
     box-shadow: 1px 1px inset rgb(207, 158, 207);
 }
 
 #number {
-    width: 250px;
-    height: 40px;
+    width: 230px;
+    height: 35px;
     box-shadow: 1px 1px inset rgb(207, 158, 207);
 }
 
 .display {
-    padding: 20px 0px 20px 100px;
+    padding: 20px 0px 20px 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,4 +67,18 @@
 
 .display p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#submit {
+    background-color: rgb(236, 34, 68);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+}
+
+#submit:hover {
+    border: 1px solid rgb(236, 34, 68);
+    border-radius: 15px;
 }

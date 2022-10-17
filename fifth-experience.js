@@ -1,15 +1,15 @@
 let score = 14;
 if(score >= 70 && score <= 100){
- result = ('A')
-}else if(score >= 60 && score <= 69 ){
-  result = ('B');
-}else if(score >= 50 && score <= 59){
-    result =('C');
-}else if(score >= 40 && score <= 49){
-    result =('D');
-}else if(score >= 30 && score <= 39){
-    result =('E');
-}else result =('F');
+    result = ('A')
+   }else if(score >= 60 && score <= 69 ){
+     result = ('B');
+   }else if(score >= 50 && score <= 59){
+       result =('C');
+   }else if(score >= 40 && score <= 49){
+       result =('D');
+   }else if(score >= 30 && score <= 39){
+       result =('E');
+   }else result =('F');
     
 
 document.getElementById('heading').innerHTML="My Fifth Experience with Javascript"
