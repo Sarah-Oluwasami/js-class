@@ -7,8 +7,116 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h2 style="text-align: center;">Array Method</h2>
+    <h3 style="text-align: center;"><i>Assignment</i></h3>
     
-    <p><b id="output"></b></p>
+
+
+
+         <h3> Concat Method</h3>
+          <button onclick="concat()" >Click here to get full name</button>
+          <p id="concat"></p>
+  
+         <h3> Map Method </h3>
+          <p>Click the button to get the square root of number.</p>
+           <p>[4, 9, 16, 25]</p> 
+          <button onclick="map()">Click here!</button>
+          <p id="map"></p>
+
+          <h3> FindIndex Method</h3>
+          <button onclick="findIndex()">Click here to get the index.</button>
+            <p id="index"></p>
+
+            <h3> Reduce Method</h3>
+            <!-- <button onclick="findIndex()">Click here to get the index.</button> -->
+              <p id="reduce"></p>
+  
+            <h3> Filter Method</h3>
+            <button onclick="filter()">Click here to get the index.</button>
+            <p id="filter"></p>
+
+            <h3> Fill Method </h3>
+          <p>This method will change the array to Paw-Paw</p>
+           <p>["Banana", "Orange"]</p> 
+          <!-- <button onclick="fill()">Click here!</button> -->
+          <p id="fill"></p>
+          
+          <h3> Join Method</h3>
+          <button onclick="joined()">Click here to get the index.</button>
+          <p id="joined"></p>
+
+          <h3> Reduce-right Method</h3>
+          <!-- <button onclick="findIndex()">Click here to get the index.</button> -->
+            <p id="reduceright"></p>
+
+          <script>
+          var numbers = [4, 9, 16, 25];
+          
+          function map() {
+            number = document.getElementById("map")
+            number.innerHTML = numbers.map(Math.sqrt);
+          }
+
+          // findIndex
+          var ages = [3, 16, 20, 10];
+
+        function checkAdult(age) {
+        return age >= 20;
+        }
+
+        function findIndex() {
+        document.getElementById("index").innerHTML = ages.findIndex(checkAdult);
+        }
+
+        //reduce
+        var numbers = [145, 60, 25];
+
+        document.getElementById("reduce").innerHTML = numbers.reduce(myFun);
+
+        function myFun(total, num) {
+        return total - num;
+        }
+
+        //filter
+        var ages = [41, 13, 12, 32];
+
+        function checkAdult(age) {
+        return age >= 18;
+        }
+
+        function filter() {
+        document.getElementById("filter").innerHTML = ages.filter(checkAdult);
+        }
+
+        // fill
+        var fruits = ["Banana", "Orange"];
+        document.getElementById("fill").innerHTML = fruits;
+
+        function fill() {  
+        document.getElementById("fill").innerHTML = fruits.fill("Paw-Paw");
+        }
+
+        function joined() {
+        var fruits = ["Banana", "Orange"];
+        var x = document.getElementById("joined");
+        x.innerHTML = fruits.join();
+        }
+
+        var numbers = [175, 50, 25];
+
+        document.getElementById("reduceright").innerHTML = numbers.reduceRight(myFunc);
+
+        function myFunc(total, num) {
+        return total - num;
+        }
+          </script>
+
+          
+
+    <!-- <p><b id="output"></b></p> -->
+
+    
 
     <script src="practice.js"></script>
 </body>
