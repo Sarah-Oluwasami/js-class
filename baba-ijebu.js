@@ -8,13 +8,16 @@ function play() {
     for(let i =0; i  < 6; i++ ){
         random[i] = Math.floor(Math.random() * 11)
      }
-    // let userString = user.toString()
-    // let usernumber = Number(userString)
     
-    const correctGuess =[];
-    let correctIndex =0
+
+    
+    const correctGuess = [];
+    let correctIndex = 0
+
+   
     for(let value of user){
-        if(random.includes(value)){
+        let toNum = parseInt(value)
+        if(random.includes(toNum)){
             correctGuess[correctIndex] = value;
             correctIndex++
         }
