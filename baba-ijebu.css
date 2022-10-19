@@ -1,0 +1,43 @@
+
+.baba-ijebu{
+    background-image: url('images/bgsexy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    width: 370px;
+    height: 200px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 4px rgb(175, 133, 133);
+    background-color: rgb(238, 228, 228);
+    text-align: center;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .baba-ijebu {
+        width: 80%;
+        height: fit-content;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+  }
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 100px;
+}
+
+#play {
+    width: 70px;
+    height: 20px;
+    background-color: brown;
+    color: beige;
+    border-radius: 5px;
+    border: none;
+}

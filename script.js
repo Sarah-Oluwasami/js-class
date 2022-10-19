@@ -56,6 +56,7 @@ document.getElementById('link1').innerHTML="My fifth experience"
 document.getElementById('link2').innerHTML="My sixth experience"
 document.getElementById('link3').innerHTML="My ninth experience"
 document.getElementById('link4').innerHTML="My loop assignment"
+document.getElementById('link5').innerHTML="Array Method"
 
 document.getElementById('heading').innerHTML="My First Experience with Javascript "
 document.getElementById('experience').innerHTML="I'm learning javascript out of neccessity to add dynamic behavior to websites and because it is the next on my front-web class outline. The first class seemed simple since it was just introduction to javascript. I've heard that javascript is hard, but I'm hoping I will understand it with practice.  From the first class, I realized that javascript is hard and also not hard, and as my teacher said 'You just need to make more effort to practice.'"
